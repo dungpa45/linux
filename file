@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ -f $1 ] 
+then echo found $1
+else
+echo Not found $1
+fi
+if [ -f $2 ]
+then echo found $2
+else
+echo Not found $2
+fi

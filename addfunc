@@ -1,0 +1,8 @@
+#!/bin/bash
+function plus {
+let kq="$1 + $2"
+echo $1 + $2 = $kq
+}
+plus 1 2
+plus 4 5
+plus 19 4
