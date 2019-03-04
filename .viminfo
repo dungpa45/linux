@@ -8,21 +8,21 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<var2\>
+~MSle0~/\<var2\>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:wq
 :q!
+:wq
 :q
 
 # Search String History (newest to oldest):
+? @$
 ? \<var2\>
 ? \<cho\>
 ??\a
-? @$
 ??prepend
 ??pre
 ?/?prepend
@@ -36,8 +36,8 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-		ServerName myweb.example.com
+""0	CHAR	0
+	e
 "1	LINE	0
 	  <p> I'm running this website on an Ubuntu Server server!
 "2	LINE	0
@@ -71,22 +71,24 @@ $
 		errorfile 504 /etc/haproxy/errors/504.http
 "9	LINE	0
 	
-""-	CHAR	0
+"-	CHAR	0
 	e
 
 # File marks:
-'0  1  0  /var/log/wtmp
-'1  26  0  /etc/sudoers
-'2  4  0  ~/foo
-'3  1  0  ~/test1/foo
-'4  1  0  /etc/nsswitch.conf
-'5  3  5  ~/foo
-'6  2  5  ~/foo
-'7  12  30  /etc/apache2/sites-available/myweb.conf
-'8  13  26  /etc/apache2/sites-available/hello.conf
-'9  1  0  /etc/apache2/sites-available/000-default.conf
+'0  22  4  ~/.git
+'1  1  0  ~/.git/config
+'2  1  0  /var/log/wtmp
+'3  26  0  /etc/sudoers
+'4  4  0  ~/foo
+'5  1  0  ~/test1/foo
+'6  1  0  /etc/nsswitch.conf
+'7  3  5  ~/foo
+'8  2  5  ~/foo
+'9  12  30  /etc/apache2/sites-available/myweb.conf
 
 # Jumplist (newest first):
+-'  22  4  ~/.git
+-'  1  0  ~/.git/config
 -'  1  0  /var/log/wtmp
 -'  26  0  /etc/sudoers
 -'  1  0  /etc/sudoers
@@ -183,10 +185,11 @@ $
 -'  2  0  /etc/alo.local
 -'  4  0  /etc/apache2/sites-available/choochoo.local
 -'  3  0  /etc/apache2/sites-available/alo.conf
--'  2  24  /etc/apache2/sites-available/alo
--'  1  0  /etc/apache2/sites-available/alo
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/config
+	"	1	0
 
 > /var/log/wtmp
 	"	1	0

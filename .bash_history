@@ -1,19 +1,3 @@
-sudo
-su
-mysql_secure_installation
-sudo -s
-mv wordpress /var/www/html/wordpress
-cd /var/www/html
-ls
-head /etc/passwd
-echo Hello > /dev/ttyl
-echo Hello > /dev/pts/l
-echo $PATH
-who
-who | wc -l
-find /anhdung > text
-find /home/anhdung > text
-cat text
 ls
 rm text
 ls
@@ -1981,4 +1965,36 @@ umask -p
 umask -S
 vigr
 git
+git checkout master
+git add .
+git commit -m "First ever commit"
+git remote add origin https://github.com/dungpa45/linux.git
+git remote -v
+git push origin master
+ls
+ll -a
+ll -a|grep git
+git remote add origin https://github.com/dungpa45/linux.gitcd .git
+cd .git
+ls
+vi config
+cd
+git
+git checkout
+git checkout develop
+git checkout -b
+git checkout -b myfeature develop
+git branch
+git checkout
+git checkout master
+git checkout M
+git merge
+git checkout -b myfeature develop
+git checkout -b myfeature
+git info
+init
+git init
+git master
+git checkout master
+git checkout myfeature
 git checkout master
